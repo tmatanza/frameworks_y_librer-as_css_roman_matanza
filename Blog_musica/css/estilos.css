@@ -1,0 +1,100 @@
+
+a {
+    color: #0f050e;
+}
+#mySearch {
+  width: 95%;
+}
+
+a:hover {
+    color: #ba381d;
+}
+
+.container
+{
+   width: 100%;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+    background: gainsboro;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+li:hover {
+    margin: 10px;
+    background: #898316;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.redes-sociales {
+  margin: 30px;
+  padding: 10px;
+  float: right;
+}
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-img {
+  width: 200px;
+  height: auto;
+  padding: 5px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container-fluid {
+  margin-top: 73px;
+}
+
+.btn
+{
+   text-align: center;
+
+   border-radius: 10px;
+   margin: 10px;
+}
+
+.fondo:hover {
+  background: gainsboro;
+}
+
+.imgen-blog {
+  width: 100%;
+  Border: 1px solid gainsboro;
+  padding: 5%;
+  margin: 10px;
+
+}
+
+body {
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 900px) {
+  .logo {
+    text-align: center;
+}
+
+.redes-sociales{
+    float: none;
+    text-align: center;
+}
+
+}
