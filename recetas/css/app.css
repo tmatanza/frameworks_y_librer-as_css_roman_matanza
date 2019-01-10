@@ -1,0 +1,97 @@
+body {
+  background: url("../img/fondo.jpg")
+}
+
+.row {
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.encabezado {
+  background: #1d3a5080;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#content {
+  background: #54597533;
+}
+
+.titulo_blog {
+  border-right: 3px solid white;
+}
+
+.fas {
+  color: #ffff;
+}
+
+.lupa {
+  background: url("../img/lupa.png")
+}
+
+.form-control-feedback {
+  position: absolute;
+  padding: 11px;
+  pointer-events: none;
+  background: #344b65;
+}
+
+.form-control {
+  padding-left: 30px !important;
+  border: 2px solid #344b65;
+}
+
+form, h3 {
+  margin-top: 45px;
+}
+
+ul {
+  margin-left: 1.25rem;
+  list-style-type: none;
+}
+
+#menu li {
+  font-size: inherit;
+  border: 1px solid #959595;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  background: #8a8c8d;
+  margin: 10px;
+}
+
+#menu li:hover {
+  background: #344b65;
+}
+
+#menu a {
+  line-height: inherit;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mini {
+  height: auto;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+small {
+  color: #e46210 !important
+}
+
+.blog-post {
+  background: #fffcfcb3;
+  padding: 10px;
+  margin: 8px;
+}
+ a:visited {
+  color: #344b65 ;
+}
